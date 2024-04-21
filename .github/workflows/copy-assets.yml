@@ -32,6 +32,6 @@ jobs:
       - name: Copy assets
         uses: dsaltares/fetch-gh-release-asset@master
         with:
-          repo: 'dsaltares/godot-wild-jam-18'
+          repo: 'mikey-beck/zoodle'
           file: 'latest.yml'
           token: ${{ secrets.GITHUB_TOKEN }}
