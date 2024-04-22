@@ -41,4 +41,5 @@ jobs:
           repository: "mikey-beck/zoodle"
           fileName: "latest.yml"
           latest: true
+          token: ${{ secrets.GITHUB_TOKEN }}
           
